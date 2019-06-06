@@ -18,7 +18,6 @@ $(function(){
     }
   });
 
-
   $remove.click(function(){
     if(window.confirm('削除してよろしいですか？')){
       $li.remove();

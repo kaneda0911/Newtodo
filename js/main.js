@@ -27,6 +27,7 @@ $(function(){
   $list.append($li);
  }
 
+
  $('.todoForm').bind('submit',function(event){
    event.preventDefault();
 
